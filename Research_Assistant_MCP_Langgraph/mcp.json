@@ -1,0 +1,15 @@
+{
+    "research_server":{
+        "command":"uv",
+        "args":["--directory",
+        "/Users/mdmehranabul/Desktop/Learning/MCP_Mastery/Research_Assistant_MCP_Langgraph",
+        "run",
+        "server.py"],
+        "transport":"stdio"
+    },
+    "firecrawl_server": {
+        "command":"npx",
+        "args":["-y","firecrawl-mcp"],
+        "transport":"stdio"
+    }
+}
